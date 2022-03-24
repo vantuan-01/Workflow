@@ -25,3 +25,5 @@ jobs:
       run: dotnet test --no-build --verbosity normal githubAction.sln
     - name: Publish
       run: dotnet publish githubAction.sln
+    - name: Download a Build Artifact
+      uses: actions/download-artifact@v3.0.0
