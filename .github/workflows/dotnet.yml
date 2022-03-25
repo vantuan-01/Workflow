@@ -27,6 +27,4 @@ jobs:
       run: dotnet publish githubAction.sln
     - name: Download a Build Artifact
       uses: actions/download-artifact@v3.0.0
-    - name: Upload a Build Artifact
-      uses: actions/upload-artifact@v3.0.0
 
